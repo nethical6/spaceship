@@ -1,0 +1,44 @@
+body {
+    
+    color:white;
+    margin:0px;
+    
+}
+
+.cover{
+  background: url("sky.png") repeat;
+  animation: slide 30s linear infinite;
+  width:100%;
+  height:100vh;
+  display: flex;
+ 
+ align-items: center;
+ 
+  padding:0px;
+  margin:0px;
+  overflow: hidden;
+  
+}
+#title {
+    font-size: 1rem;
+    font-family: 'Space Mono', monospace;
+    outline: 1px solid #FF594D;
+    background-color: #D52952;
+  translate: -35px 0;
+}
+@keyframes slide{
+  0% { background-position: 0 0; }
+	100% { background-position: -1000px 0; }
+}
+#retroPic {
+    width:30%;
+    height: auto;
+    
+}
+
+#ship {
+    width: auto;
+    height: 100px;
+    rotate: 90deg;
+    float: left ;
+}
